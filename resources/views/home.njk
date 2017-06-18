@@ -1,0 +1,58 @@
+{% extends 'master' %}
+
+{% block content %}
+  <div class="container" style="margin-top: 10px">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">Users</h4>
+          </div>
+          <ul class="list-group list-group-flush">
+            {% for user in users %}
+            <li class="list-group-item"><strong>{{ user.name }}</strong> &nbsp; <a href="{{ 'user:show' | route({ username: user.username }) }}" class="text-muted">@{{ user.username }}</a></li>
+            {% endfor %}
+          </ul>
+          
+        </div>
+      </div>
+      <div class="col-lg-8">
+
+        {% if old('errors') %}
+          <div class="alert alert-danger">
+            {% for error in old('errors') %}
+              <li> {{ error.message }} </li>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if currentUser %}
+        <form method="POST" action="{{ 'post:store' | route }}">
+          {{ csrfField }}
+          <div class="form-group {% if old('errors') %}has-danger{% endif %}">
+            <textarea name="text" class="form-control" id="exampleTextarea" placeholder="Apa yang kamu fikirkan?" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-md btn-primary">Tweet</button>
+          </div>
+        </form>
+        {% endif %}
+
+        {% if posts.length <= 0 %}
+        <p>Opps, no tweets here.</p>
+        {% endif %}
+        
+        {% for post in posts %}
+        <div class="card" style="margin-bottom: 10px">
+          <div class="card-block">
+            <p class="card-title">
+              <strong>{{ post.user.name | title }}</strong> <a href="{{ 'user:show' | route({username: post.user.username })}}" class="text-muted">@{{ post.user.username }}</a>
+            </p>
+            <p class="card-text">{{ post.text }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
