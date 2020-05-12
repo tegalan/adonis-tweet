@@ -93,9 +93,9 @@ adonis-fold@3.0.3:
     node-exceptions "^1.0.3"
     require-stack "^1.0.1"
 
-adonis-framework@3.0.13:
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/adonis-framework/-/adonis-framework-3.0.13.tgz#6d63b11b673729535ae5c5e66732c4beddeb098d"
+adonis-framework@3.0.14:
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/adonis-framework/-/adonis-framework-3.0.14.tgz#fdc6a2a95c29ee2d475ca49634e3e9ccd8c606b7"
   dependencies:
     adonis-binding-resolver "^1.0.1"
     bcryptjs "^2.4.0"
@@ -106,10 +106,10 @@ adonis-framework@3.0.13:
     dotenv "^2.0.0"
     eventemitter2 "^3.0.0"
     lodash "^4.17.4"
-    node-cookie "^1.0.4"
-    node-exceptions "^1.0.3"
-    node-req "^1.0.5"
-    node-res "^3.0.1"
+    node-cookie "1.0.4"
+    node-exceptions "1.0.3"
+    node-req "1.0.5"
+    node-res "3.0.1"
     nunjucks "^3.0.0"
     path-to-regexp "^1.7.0"
     require-all "^2.1.0"
@@ -2425,7 +2425,7 @@ nested-error-stacks@^1.0.0:
   dependencies:
     inherits "~2.0.1"
 
-node-cookie@^1.0.3, node-cookie@^1.0.4:
+node-cookie@1.0.4, node-cookie@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/node-cookie/-/node-cookie-1.0.4.tgz#8e1043fe7ef4404dc1ccb19e0d53a6c03517dec7"
   dependencies:
@@ -2440,7 +2440,7 @@ node-csp@^1.0.1:
   dependencies:
     platform "^1.3.1"
 
-node-exceptions@^1.0.3:
+node-exceptions@1.0.3, node-exceptions@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/node-exceptions/-/node-exceptions-1.0.3.tgz#625a797b92cbe8dd5bd0ae54e93571b7ded90b15"
 
@@ -2466,7 +2466,7 @@ node-pre-gyp@^0.6.36, node-pre-gyp@~0.6.31:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-req@^1.0.5:
+node-req@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/node-req/-/node-req-1.0.5.tgz#4c4ec043cc25cfbd94c783c1dde49c846ff34dad"
   dependencies:
@@ -2477,7 +2477,7 @@ node-req@^1.0.5:
     qs "^5.2.0"
     type-is "^1.6.9"
 
-node-res@^3.0.1:
+node-res@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/node-res/-/node-res-3.0.1.tgz#460daa8338b5e6f069a207b91b4ee348820ba36e"
   dependencies:
