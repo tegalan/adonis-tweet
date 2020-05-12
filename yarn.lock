@@ -35,9 +35,9 @@ acorn@^5.0.1:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.0.3.tgz#c460df08491463f028ccb82eab3730bf01087b3d"
 
-adonis-ace@3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/adonis-ace/-/adonis-ace-3.0.7.tgz#66242bb975e0d60f5cc50fb8415c21fe4d706118"
+adonis-ace@3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/adonis-ace/-/adonis-ace-3.0.8.tgz#812aa96f9a2049b4b6c0af413d7588d2d55537e7"
   dependencies:
     cat-log "^1.0.2"
     cli-table "^0.3.1"
@@ -47,7 +47,7 @@ adonis-ace@3.0.7:
     es6-class-mixin "^1.0.5"
     inquirer "^3.0.2"
     lodash "^4.17.2"
-    node-exceptions "^1.0.3"
+    node-exceptions "^2.0.0"
 
 adonis-auth@1.0.7:
   version "1.0.7"
@@ -2444,7 +2444,7 @@ node-exceptions@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/node-exceptions/-/node-exceptions-1.0.3.tgz#625a797b92cbe8dd5bd0ae54e93571b7ded90b15"
 
-node-exceptions@^2.0.1:
+node-exceptions@^2.0.0, node-exceptions@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/node-exceptions/-/node-exceptions-2.0.2.tgz#2612b45929b774e3669557f852b47507765acfe7"
 
