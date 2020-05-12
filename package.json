@@ -23,7 +23,7 @@
     "adonis-middleware": "1.0.14",
     "adonis-validation-provider": "3.0.5",
     "adonis-websocket": "1.0.4",
-    "mysql": "2.14.0",
+    "mysql": "2.18.1",
     "sqlite3": "3.1.8",
     "youch": "2.0.5"
   },
