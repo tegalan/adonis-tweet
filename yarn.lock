@@ -35,7 +35,7 @@ acorn@^5.0.1:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.0.3.tgz#c460df08491463f028ccb82eab3730bf01087b3d"
 
-adonis-ace@^3.0.7:
+adonis-ace@3.0.7:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/adonis-ace/-/adonis-ace-3.0.7.tgz#66242bb975e0d60f5cc50fb8415c21fe4d706118"
   dependencies:
@@ -49,7 +49,7 @@ adonis-ace@^3.0.7:
     lodash "^4.17.2"
     node-exceptions "^1.0.3"
 
-adonis-auth@^1.0.5:
+adonis-auth@1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/adonis-auth/-/adonis-auth-1.0.7.tgz#41eb7c74f6fd9240a1ea5d9593f385130add1a21"
   dependencies:
@@ -68,7 +68,7 @@ adonis-binding-resolver@^1.0.1:
   dependencies:
     node-exceptions "^1.0.3"
 
-adonis-commands@^2.1.5:
+adonis-commands@2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/adonis-commands/-/adonis-commands-2.1.5.tgz#48e2af9aba37c329df64d2e2e616f9d1e78c36a7"
   dependencies:
@@ -79,7 +79,7 @@ adonis-commands@^2.1.5:
     inflect "^0.3.0"
     randomstring "^1.1.5"
 
-adonis-fold@^3.0.3:
+adonis-fold@3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/adonis-fold/-/adonis-fold-3.0.3.tgz#b1c64d151795092fcb49d71d4fe20933b9769742"
   dependencies:
@@ -93,7 +93,7 @@ adonis-fold@^3.0.3:
     node-exceptions "^1.0.3"
     require-stack "^1.0.1"
 
-adonis-framework@^3.0.10:
+adonis-framework@3.0.13:
   version "3.0.13"
   resolved "https://registry.yarnpkg.com/adonis-framework/-/adonis-framework-3.0.13.tgz#6d63b11b673729535ae5c5e66732c4beddeb098d"
   dependencies:
@@ -117,7 +117,7 @@ adonis-framework@^3.0.10:
     type-of-is "^3.4.0"
     uuid "^3.0.1"
 
-adonis-lucid@^3.0.14:
+adonis-lucid@3.0.16:
   version "3.0.16"
   resolved "https://registry.yarnpkg.com/adonis-lucid/-/adonis-lucid-3.0.16.tgz#321cdc035806acf11c830447759c88212999d647"
   dependencies:
@@ -137,7 +137,7 @@ adonis-lucid@^3.0.14:
     pretty-hrtime "^1.0.3"
     require-all "^2.2.0"
 
-adonis-middleware@^1.0.11:
+adonis-middleware@1.0.14:
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/adonis-middleware/-/adonis-middleware-1.0.14.tgz#a03b43d0f071c3dcfbb16667519717cece700457"
   dependencies:
@@ -152,13 +152,13 @@ adonis-middleware@^1.0.11:
     node-guard "^1.0.0"
     uuid "^3.0.1"
 
-adonis-validation-provider@^3.0.5:
+adonis-validation-provider@3.0.5:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/adonis-validation-provider/-/adonis-validation-provider-3.0.5.tgz#2693ea8675199e8cb051acc4adf24fe5db244fef"
   dependencies:
     indicative "^2.2.1"
 
-adonis-websocket@^1.0.3:
+adonis-websocket@1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/adonis-websocket/-/adonis-websocket-1.0.4.tgz#208c47f60e340b1bb172bbb332f5503592b1e451"
   dependencies:
@@ -2394,7 +2394,7 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
-mysql@^2.14.0:
+mysql@2.14.0:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/mysql/-/mysql-2.14.0.tgz#325cc1156e8246e572118774bbf406eaa9189ffd"
   dependencies:
@@ -2488,7 +2488,7 @@ node-res@^3.0.1:
     send "^0.14.1"
     vary "^1.1.0"
 
-nodemon@^1.11.0:
+nodemon@1.11.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.11.0.tgz#226c562bd2a7b13d3d7518b49ad4828a3623d06c"
   dependencies:
@@ -3317,7 +3317,7 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
-sqlite3@^3.1.8:
+sqlite3@3.1.8:
   version "3.1.8"
   resolved "https://registry.yarnpkg.com/sqlite3/-/sqlite3-3.1.8.tgz#4cbcf965d8b901d1b1015cbc7fc415aae157dfaa"
   dependencies:
@@ -3355,7 +3355,7 @@ standard-engine@~7.0.0:
     minimist "^1.1.0"
     pkg-conf "^2.0.0"
 
-standard@^10.0.1:
+standard@10.0.2:
   version "10.0.2"
   resolved "https://registry.yarnpkg.com/standard/-/standard-10.0.2.tgz#974c1c53cc865b075a4b576e78441e1695daaf7b"
   dependencies:
@@ -3754,7 +3754,7 @@ yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
-youch@^2.0.4:
+youch@2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/youch/-/youch-2.0.5.tgz#7a1d4491e96c0f9f18a02b3b57c360d42714428a"
   dependencies:
