@@ -2382,9 +2382,9 @@ ms@^0.7.1, ms@^0.7.2:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.3.tgz#708155a5e44e33f5fd0fc53e81d0d40a91be1fff"
 
-mustache@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/mustache/-/mustache-2.3.0.tgz#4028f7778b17708a489930a6e52ac3bca0da41d0"
+mustache@^3.0.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/mustache/-/mustache-3.2.1.tgz#89e78a9d207d78f2799b1e95764a25bf71a28322"
 
 mute-stream@0.0.5:
   version "0.0.5"
@@ -3772,10 +3772,10 @@ yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
-youch@2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/youch/-/youch-2.0.5.tgz#7a1d4491e96c0f9f18a02b3b57c360d42714428a"
+youch@2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/youch/-/youch-2.0.10.tgz#e0f6312b12304fd330a0c4a0e0925b0123f7d495"
   dependencies:
     cookie "^0.3.1"
-    mustache "^2.3.0"
+    mustache "^3.0.0"
     stack-trace "0.0.10"
