@@ -24,7 +24,7 @@
     "adonis-validation-provider": "3.0.5",
     "adonis-websocket": "1.0.4",
     "mysql": "2.18.1",
-    "sqlite3": "4.2.0",
+    "sqlite3": "5.0.0",
     "youch": "2.0.10"
   },
   "standard": {
