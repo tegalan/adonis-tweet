@@ -55,6 +55,11 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
+"@types/stack-trace@^0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/stack-trace/-/stack-trace-0.0.29.tgz#eb7a7c60098edb35630ed900742a5ecb20cfcb4d"
+  integrity sha512-TgfOX+mGY/NyNxJLIbDWrO9DjGoVSW9+aB8H2yy1fy32jsvxijhmyJI9fDFgvz3YP4lvJaq9DzdR/M1bOgVc9g==
+
 a-sync-waterfall@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/a-sync-waterfall/-/a-sync-waterfall-1.0.0.tgz#38e8319d79379e24628845b53b96722b29e0e47c"
@@ -2857,10 +2862,10 @@ ms@^0.7.1, ms@^0.7.2:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.3.tgz#708155a5e44e33f5fd0fc53e81d0d40a91be1fff"
 
-mustache@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/mustache/-/mustache-4.0.1.tgz#d99beb031701ad433338e7ea65e0489416c854a2"
-  integrity sha512-yL5VE97+OXn4+Er3THSmTdCFCtx5hHWzrolvH+JObZnUYwuaG7XV+Ch4fR2cIrcYI0tFHxS7iyFYl14bW8y2sA==
+mustache@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/mustache/-/mustache-4.1.0.tgz#8c1b042238a982d2eb2d30efc6c14296ae3f699d"
+  integrity sha512-0FsgP/WVq4mKyjolIyX+Z9Bd+3WS8GOwoUTyKXT5cTYMGeauNTi2HPCwERqseC1IHAy0Z7MDZnJBfjabd4O8GQ==
 
 mute-stream@0.0.7:
   version "0.0.7"
@@ -4743,11 +4748,12 @@ yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
-youch@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/youch/-/youch-2.1.1.tgz#c25a35fc9a7acec31e6edc3a73283e7a7f34b7e6"
-  integrity sha512-qYN29wSKxAnECdcsTegBziyRXS3MWcTTefzViBN++/UulXCcIGT/VaQhDVeeKvVFpEaQ9EPv3OVJafPrDNU1+Q==
+youch@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/youch/-/youch-2.2.0.tgz#0b58469a85ba0094ece6f9d5d9a3bc45830a7191"
+  integrity sha512-+itg/hdR2+ZjkakDJMPkU3OdctmNFMpDwPCJhH0uuWnvtz+TYVt5wfFVaEfeUkCcTCICrramIVoKJJ07dPrQhw==
   dependencies:
+    "@types/stack-trace" "^0.0.29"
     cookie "^0.4.1"
-    mustache "^4.0.1"
+    mustache "^4.1.0"
     stack-trace "0.0.10"
