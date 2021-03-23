@@ -55,7 +55,7 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
-"@types/stack-trace@^0.0.29":
+"@types/stack-trace@0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/stack-trace/-/stack-trace-0.0.29.tgz#eb7a7c60098edb35630ed900742a5ecb20cfcb4d"
   integrity sha512-TgfOX+mGY/NyNxJLIbDWrO9DjGoVSW9+aB8H2yy1fy32jsvxijhmyJI9fDFgvz3YP4lvJaq9DzdR/M1bOgVc9g==
@@ -4748,12 +4748,12 @@ yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
-youch@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/youch/-/youch-2.2.0.tgz#0b58469a85ba0094ece6f9d5d9a3bc45830a7191"
-  integrity sha512-+itg/hdR2+ZjkakDJMPkU3OdctmNFMpDwPCJhH0uuWnvtz+TYVt5wfFVaEfeUkCcTCICrramIVoKJJ07dPrQhw==
+youch@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/youch/-/youch-2.2.1.tgz#204e7a55b48708a77fc09cd3d3cba0038f560a4e"
+  integrity sha512-omRM/t3JOsGN1wXP2r5HNmcUgkO3xxw+veese5L3FAgFwuqYZkK3Nuk03ZkTZ6VZ64lG6pbfl1pej49mt44wxA==
   dependencies:
-    "@types/stack-trace" "^0.0.29"
+    "@types/stack-trace" "0.0.29"
     cookie "^0.4.1"
     mustache "^4.1.0"
     stack-trace "0.0.10"
